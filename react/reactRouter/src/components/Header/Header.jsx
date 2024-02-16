@@ -60,8 +60,8 @@ export default function Header() {
                             <li>
                                 <NavLink
                                 to = "/User"
-                                className={(isActive)=>
-                                    ''
+                                className={({isActive})=>
+                                    `block py-2 pr-4 pl-3 duration-200 border-b ${isActive? "text-orange-500" : "text-gray-500" } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                 }>
                                     User
                                 </NavLink>
