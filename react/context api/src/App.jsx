@@ -9,9 +9,10 @@ function App() {
 
   return (
     <UserContextProvider >
-     <h1 className=' bg-black text-white w-full h-screenk'>assalmualiku</h1>
+      <div className=' bg-black text-white h-screen flex justify-center align-middle'>
       <Login />
       <Profile/>
+      </div>
     </UserContextProvider>
   )
 }
